@@ -1,0 +1,10 @@
+
+<center>
+    <p><h1>Bienvenue sur notre site de POTINS </h1></p>
+    <p><h2>Voici la liste des potins : </h2></p>
+        <% @all.each do |gossip|%>
+            <p>Gossip : <%= gossip.title %><p>
+            <p>Auteur : <%= gossip.user.first_name %></p>
+            <hr/>
+        <% end %>
+<center>
