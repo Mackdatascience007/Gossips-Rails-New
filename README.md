@@ -9,7 +9,7 @@ Elle contient une database avec seed, des views, des controllers et des models.
 
 ## Les Gossips comme on les aimes
 
-![alt text](http://zupimages.net/viewer.php?id=19/43/xzsy.jpg)
+ ![Screenshot](screenshot.jpg)
 
 ***
 
