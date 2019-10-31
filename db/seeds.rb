@@ -20,9 +20,10 @@ end
   email = Faker::Internet.unique.safe_email(name: name)
   name = name.split(' ')
   age = rand(16..70)
+  password = Faker::String.random
   User.create(first_name: name[0], last_name: name[1],
   description: description, email: email, age: age,
-  city_id: City.all.sample.id)
+  city_id: City.all.sample.id, password: password)
 end
 
 # getting to the gossips (requires users)
